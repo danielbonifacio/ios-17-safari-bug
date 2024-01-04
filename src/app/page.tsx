@@ -121,7 +121,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-20 h-40 w-full relative rounded-3xl overflow-hidden shadow-2xl">
+        {/* <div className="mt-20 h-40 w-full relative rounded-3xl overflow-hidden shadow-2xl">
           <div className="absolute inset-0 z-0">
             <video
               src="https://cdn.shopify.com/videos/c/o/v/6acf20f1b2664e0c86ba01e7c03cfd2d.mp4"
@@ -132,7 +132,7 @@ export default function Home() {
               className="w-full h-full object-cover"
             ></video>
           </div>
-        </div>
+        </div> */}
       </main>
     </>
   );
