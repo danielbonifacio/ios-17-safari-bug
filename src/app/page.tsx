@@ -129,6 +129,7 @@ export default function Home() {
               autoPlay
               muted
               controls={false}
+              playsInline
               className="w-full h-full object-cover"
             ></video>
           </div>
