@@ -4,16 +4,17 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      {/* <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0">
         <video
           src="https://cdn.shopify.com/videos/c/o/v/6acf20f1b2664e0c86ba01e7c03cfd2d.mp4"
           loop
           autoPlay
           muted
           controls={false}
+          playsInline
           className="w-full h-full object-cover"
         ></video>
-      </div> */}
+      </div>
       <main className="relative z-10 flex min-h-screen flex-col items-center justify-between p-24">
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
           <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
