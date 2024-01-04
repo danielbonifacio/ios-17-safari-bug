@@ -10,6 +10,7 @@ export default function Home() {
           loop
           autoPlay
           muted
+          controls={false}
           className="w-full h-full object-cover"
         ></video>
       </div>
@@ -127,6 +128,7 @@ export default function Home() {
               loop
               autoPlay
               muted
+              controls={false}
               className="w-full h-full object-cover"
             ></video>
           </div>
